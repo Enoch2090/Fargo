@@ -47,12 +47,12 @@ Fargo is currently a primitive version, so it won't be added to [pypi.org](https
 - [ ] Commands for redirecting alias names, etc.
 
 ## 建立时间不足
-> 你有没有见过一台超频的电脑. 
+> 你有没有见过一台超频的电脑  
 > 二十四小时不间断工作?  
-> 周一调休，昨夜电压过低. 
-> 寄存器都拼命凑足时序. 
+> 周一调休，昨夜电压过低  
+> 寄存器都拼命凑足时序  
 > 因此每个非门的入口都张贴告示：  
-> 漏水，请勿. 
-> 从此通过. 
+> 漏水，请勿  
+> 从此通过
 
 <img src="resources/noPass.JPG" alt="noPass" style="zoom:50%;" />
