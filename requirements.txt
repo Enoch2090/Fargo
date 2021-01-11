@@ -1,0 +1,2 @@
+natsort==7.1.0
+unicode_slugify==0.1.3
