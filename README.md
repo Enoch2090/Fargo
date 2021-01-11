@@ -55,4 +55,4 @@ Fargo is currently a primitive version, so it won't be added to [pypi.org](https
 > 漏水，请勿  
 > 从此通过
 
-<img src="resources/noPass.JPG" alt="noPass" style="zoom:50%;" />
+<img src="resources/noPass.JPG" alt="noPass" style="zoom: 25%;" />
