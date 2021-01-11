@@ -1,4 +1,4 @@
-![Fargo](Resources/Fargo.png)
+![Fargo](resources/Fargo.png)
 
 ## Fargo
 
