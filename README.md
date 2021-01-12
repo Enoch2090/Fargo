@@ -19,7 +19,9 @@ python3 setup.py install
 
 ## Usage
 
-<script id="asciicast-KNZmFIkLgjlkrVh9zeqzdTrKV" src="https://asciinema.org/a/KNZmFIkLgjlkrVh9zeqzdTrKV.js" async></script>
+<a href="https://asciinema.org/a/KNZmFIkLgjlkrVh9zeqzdTrKV" target="_blank"><img src="https://asciinema.org/a/KNZmFIkLgjlkrVh9zeqzdTrKV.svg" /></a>
+
+Click to watch demo on [asciinema.org](https://asciinema.org/).
 
 Add:
 
