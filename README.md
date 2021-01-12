@@ -19,6 +19,8 @@ python3 setup.py install
 
 ## Usage
 
+<script id="asciicast-KNZmFIkLgjlkrVh9zeqzdTrKV" src="https://asciinema.org/a/KNZmFIkLgjlkrVh9zeqzdTrKV.js" async></script>
+
 Add:
 
 ```shell
@@ -46,13 +48,13 @@ Fargo is currently a primitive version, so it won't be added to [pypi.org](https
 - [ ] Analysis based on watching history.
 - [ ] Commands for redirecting alias names, etc.
 
-## 建立时间不足
-> 你有没有见过一台超频的电脑  
-> 二十四小时不间断工作?  
-> 周一调休，昨夜电压过低  
-> 寄存器都拼命凑足时序  
-> 因此每个非门的入口都张贴告示：  
-> 漏水，请勿  
-> 从此通过
+## Insufficient Setup Time
 
-<img src="resources/noPass.JPG" alt="noPass" style="zoom: 25%;" />
+> Have you seen an overclocked computer  
+> run twenty-four hours non-stop?  
+> Monday reserved for work,  
+> last night suffered from low voltage input  
+> All registers struggled to keep synchronized  
+> Therefore each NOT gate puts on a notice-  
+> Broken pipe, DO NOT  
+> passby
