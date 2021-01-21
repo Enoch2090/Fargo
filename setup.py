@@ -8,7 +8,7 @@ from setuptools import setup, find_packages
 
 
 setup(name='fargo',
-      version='1.0.0',
+      version='1.1.0',
       description='A local video playing manager',
       keywords='fargo',
       author='Enoch2090',
