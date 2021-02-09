@@ -1,7 +1,7 @@
 import os
 import platform
 import subprocess
-from fargo.config import CONFIG_DIR
+from fargo import config
 
 
 class fileOpenerError(Exception):
@@ -11,23 +11,27 @@ class fileOpenerError(Exception):
 
 
 class fileOpener(object):
-    def __init__(self, opener="IINA"):
-        self.opener = opener
+    def __init__(self):
+        self.opener = "NULL"
         self.sys = platform.system()
 
     def __str__(self):
         return self.opener
 
-    def setOpener(self, opener):
-        self.opener = opener
+    def cleanUp(self):
+        print("Cleaning up")
+        # TODO: Clean up
+
+
+class IINAOpener(fileOpener):
+    def __init__(self):
+        fileOpener.__init__(self)
+        self.opener = "IINA"
 
     def checkCompatibility(self):
-        if (self.sys != "Darwin" and self.opener == "IINA"):
+        if (self.sys != "Darwin"):
             raise fileOpenerError(self.sys, self.opener)
 
     def open(self, fileName):
-        if (self.opener == "IINA"):
-            os.system(
-                "ln -s /Applications/IINA.app/Contents/MacOS/iina-cli /usr/local/bin/iina >%s" % os.path.join(CONFIG_DIR, "temp"))
-            os.system("iina '%s' >%s" %
-                      (fileName, os.path.join(CONFIG_DIR, "temp")))
+        os.system("iina '%s' >%s" %
+                  (fileName, os.path.join(config.CONFIG_DIR, "temp")))

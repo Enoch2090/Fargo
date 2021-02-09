@@ -1,5 +1,5 @@
 # -*- encoding: utf-8 -*-
-# fargo v1.0.0
+# fargo v1.1.0
 # Just watch shows.
 # Copyright © 2020, enoch2090.
 
@@ -13,4 +13,4 @@ WELCOME_TEXT = '''  __
 
 
 def init():
-    print("%s\n%s%s!" % (WELCOME_TEXT, "Welcome to Fargo", "1.0.0"))
+    print("%s\n%s%s!" % (WELCOME_TEXT, "Welcome to Fargo", "1.1.0"))

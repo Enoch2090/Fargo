@@ -1,5 +1,5 @@
 # -*- encoding: utf-8 -*-
-# fargo v1.0.0
+# fargo v1.1.0
 # Just watch shows.
 # Copyright © 2020, enoch2090.
 
@@ -30,7 +30,8 @@ def watch(args: Dict[str, str]):
         return
 
     try:
-        o = fileOpener(f.configuration["defaultOpener"])
+        o = f.getOpener()
+
     except fileOpenerError:
         print(fileOpenerError.message)
         return

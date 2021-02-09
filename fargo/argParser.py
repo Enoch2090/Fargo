@@ -1,5 +1,5 @@
 # -*- encoding: utf-8 -*-
-# fargo v1.0.0
+# fargo v1.1.0
 # Just watch shows.
 # Copyright © 2020, enoch2090.
 
@@ -33,6 +33,10 @@ def fargoArgParser(args: Sequence[str]) -> argparse.Namespace:
         "delete",
         help="Delete a series alias"
     )
+    find_parser = subparsers.add_parser(
+        "find",
+        help="Find torrents from https://rarbg.to"
+    )
 
     watch_parser.add_argument(
         "alias",
@@ -57,6 +61,13 @@ def fargoArgParser(args: Sequence[str]) -> argparse.Namespace:
     delete_parser.add_argument(
         "alias",
         help="Alias name of the series",
+        type=str,
+        nargs=1
+    )
+
+    find_parser.add_argument(
+        "name",
+        help="Name of the series",
         type=str,
         nargs=1
     )
